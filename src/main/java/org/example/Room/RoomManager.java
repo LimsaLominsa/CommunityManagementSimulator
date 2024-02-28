@@ -129,7 +129,7 @@ public class RoomManager implements Add<String[]>, Delete<String>{
                     roomMap.put(id,buildIdUpdated);
                     System.out.println("更改成功！");
                     }else{
-                        System.out.println("楼栋有误，请检查小区楼栋信息");
+                        System.out.println("房屋所在小区编号" + info[8] + "查无此楼栋");
                     }
                     break;
 
