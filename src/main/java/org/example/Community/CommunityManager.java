@@ -7,6 +7,8 @@ import org.example.interfaces.Modify;
 import java.util.HashMap;
 import java.util.Map;
 
+import static org.example.Building.BuildingManager.buildingMap;
+
 public class CommunityManager implements Add<String[]>, Delete<String>, Modify<String[]> {
     public static final HashMap<String, String> communityMap = new HashMap<>();
     //static final确保程序运行期间只有一个hashmap存储小区信息
